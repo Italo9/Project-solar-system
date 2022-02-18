@@ -9,7 +9,7 @@ class App extends React.Component {
       <div>
         <Header />
         <SolarSystem />
-        <Title />
+        <Title headline={ headline } />
       </div>
     );
   }
