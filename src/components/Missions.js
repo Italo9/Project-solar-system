@@ -10,7 +10,7 @@ class Missions extends React.Component {
         <div data-testid="missions">
           <Title headline="Missões" />
         </div>
-        <section>
+        <section className="mission">
           {missions.map((missionPosicao) => (
             <MissionCard
               key={ missionPosicao.name }

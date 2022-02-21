@@ -1,3 +1,97 @@
 .App {
   text-align: center;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  background-image: url('./images/background.png');
+  color: white;
+}
+
+.planetas {
+  border: 3px;
+  border-radius: 8px;
+  margin: auto;
+  padding: 24px;
+  width: 95%;
+  display: flex;
+  font-size: 36px;
+  justify-content: center;
+}
+
+.planets {
+  align-items: center;
+  flex-flow: row wrap;
+  display: flex;
+}
+
+section {
+  align-items: center;
+  margin: auto;
+  padding: 5px;
+  display: flex;
+  flex-flow: nowrap;
+}
+
+.planets:hover {
+  transform: scale(1.2);
+  transition: all 0.2s;
+}
+
+.Mercúrio  {
+  width: 55px;
+}
+
+.Vênus  {
+  width: 110px;
+}
+
+.Terra  {
+  width: 110px;
+}
+
+.Marte  {
+  width: 55px;
+}
+
+.Júpiter  {
+  width: 350px;
+}
+
+.Saturno  {
+  width: 350px;
+}
+
+.Urano  {
+  width: 200px;
+}
+
+.Netuno  {
+  width: 200px;
+}
+
+.mission-card {
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 12px;
+  display: flex;
+  flex-flow: column wrap;
+  margin: 10px;
+  padding: 20px;
+  width: 180px;
+}
+
+.mission-card p {
+  font-size: 18px;
+  line-height: 24px;
+  padding: 5px;
+  text-align: center;
+}
+
+.mission {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: auto;
+}

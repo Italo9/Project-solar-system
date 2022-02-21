@@ -3,16 +3,17 @@ import Header from './components/Header';
 import Missions from './components/Missions';
 import SolarSystem from './components/SolarSystem';
 import Title from './components/Title';
+import './App.css';
 
 class App extends React.Component {
   render() {
     return (
-      <div>
+      <main className="App">
         <Header />
-        <Title headline="Título" />
+        <Title headline="" />
         <SolarSystem />
         <Missions />
-      </div>
+      </main>
     );
   }
 }
